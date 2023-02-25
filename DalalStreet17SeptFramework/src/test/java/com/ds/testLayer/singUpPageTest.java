@@ -16,7 +16,7 @@ public class singUpPageTest extends TestBase {
 		String expected_output = "https://www.apps.dalalstreet.ai/dashboard";
 		
 		signup_obj.ClickOnSignupButton();		
-		signup_obj.EnterFristName("Ranjit");
+		signup_obj.EnterFristName("Lalit");
 		signup_obj.EnterLastName("vadar");
 		signup_obj.EnterEmailId("vadaranjit66556554@gmail.com");
 		signup_obj.EnterPassword("12345@ranjit");
