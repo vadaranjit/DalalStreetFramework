@@ -13,7 +13,6 @@ public class LogoutFunctionality extends TestBase{
 		@Test
 		public void verifyLogoutFunctionality() throws InterruptedException
 		{
-			System.out.print("hello world- changed");
 			String expected_result = "https://www.apps.dalalstreet.ai/logout";
 
 			dash_obj.clickOnProfileDropdown();
