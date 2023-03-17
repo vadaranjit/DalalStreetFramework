@@ -14,7 +14,7 @@ public class BuyFunctionality extends TestBase {
 		@Test
 		public void verifyBuyFunctionality() throws InterruptedException
 		{	
-			String expected_output = "Order Created successfully";
+			String expected_output = "Orders Created successfully";
 			//------------------------------------------------
 			dash_obj.enterCompanyName("Wipro");
 			dash_obj.clickOnOption();
